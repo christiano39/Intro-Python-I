@@ -45,7 +45,7 @@ elif len(sys.argv) == 3:
   year = int(sys.argv[2])
   print(cal.formatmonth(year, month))
 else:
-  print("\n Invalid format: must be be run with any of the following formats: ")
+  print("\n Invalid format. Must be be run with any of the following formats: ")
   print("14_cal.py")
   print("OR")
   print("14_cal.py month")
